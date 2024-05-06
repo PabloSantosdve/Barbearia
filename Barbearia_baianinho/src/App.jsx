@@ -1,11 +1,11 @@
 import './App.css'
-
-function App() {
+import Header from '../src/componentes/Header'
+function App() {  
  
 
   return (
     <>
-      
+      <Header />
     </>
   )
 }
