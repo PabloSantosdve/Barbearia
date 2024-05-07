@@ -16,6 +16,8 @@ header{
     color: white;
 
     box-shadow: 0px 10px 50px black;
+
+    background-image: linear-gradient(to bottom, black, transparent);
 }
 
 .logo{
