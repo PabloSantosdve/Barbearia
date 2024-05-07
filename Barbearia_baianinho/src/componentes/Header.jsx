@@ -2,6 +2,7 @@ import logo1 from '../imagens/logoheader.png'
 import baiano from '../imagens/Bahianinho.png'
 function Header(){
     return(
+    <div>
         <header>
             <div className='logo'>
                 <img src={logo1} alt="" />
@@ -20,6 +21,7 @@ function Header(){
                 <a href="">Entre em contato</a>
             </div>
         </header>
+    </div>
     )
 }
 
