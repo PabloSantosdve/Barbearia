@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: Titulo;
+    src: url(../font/CopperplateCC-Heavy.ttf); 
+}
+
+.title_team{
+    text-align: center;
+    font-size: 46px;
+
+    margin-top: 50px;
+
+    font-family: 'Titulo', Arial, Helvetica, sans-serif;
+}
+
+.text{
+   
+    width: 60%;
+    height: 250px;
+    margin: auto;
+
+    margin-top: 50px;
+}
+
+.text p{
+
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+
+}

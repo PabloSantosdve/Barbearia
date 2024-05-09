@@ -8,9 +8,11 @@ function Banner(){
             <div className={Styles.Image_background}>
                 <img src={Barber} alt="" />
 
-                <h1>
-                A Melhor Barbearia de Taboão da Serra
-                </h1>
+                <div className={Styles.title_banner}> 
+                     <h1>
+                        A Melhor Barbearia de Taboão da Serra
+                     </h1>
+                </div>
                 
             </div>
             <div className={Styles.bx_banner}>
