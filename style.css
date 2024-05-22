@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Titulo;
+    src: url(../font/CopperplateCC-Heavy.ttf); 
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+    box-shadow: 0px 10px 50px black;
+
+    background-image: linear-gradient(to bottom, black, transparent);
+}
+
+.logo{
+    width: 27%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo_header{
+    width: 100px;
+    height: 100%;
+}
+
+.logo_header img{
+    width: 100%;
+    height: 100%;
+}
+
+.nome{
+    width: 150px;
+    height: 40px;
+}
+
+.nome img{
+    width: 100%;
+    height: 100%;
+}
+
+nav li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    color: white;
+
+}
+
+nav{
+    
+    margin-right: 40px;
+    color: white;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    transition: all 0.5s;
+
+    font-family: 'Titulo', Arial, Helvetica, sans-serif;
+
+}
+
+.link_nav{
+    padding: 20px;
+    
+}
+
+.link_nav:hover{
+    transform: scale(1.2);
+    
+}
+
+
+.contact{
+    color: black;
+}
+
+
+.phone{
+    background-color: white;
+    color: black;
+
+    margin-right: 30px;
+    padding: 15px;
+    border-radius: 10px;
+
+    transition: all 0.5s;
+}
+
+.phone:hover{
+    transform: scale(1.1);
+}
+
+ul{
+    font-family: 'Titulo', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.Image_background{
+    height: 600px;
+    width: 100%;
+
+    background-image: url('images/Jovem_barbearia.png');
+}
+
+.Image_background img{
+    width: 100%;
+    height: 100%;
+}
+
+.bx_banner{
+    
+    width: 350px;
+    height: 350px;
+
+    position: absolute;
+    top: 130px;
+    left: 500px;
+    z-index: 2;
+
+}
+
+.bx_banner img{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+
+    font-family: 'Titulo', Arial, Helvetica, sans-serif;
+}
+
+.title_banner{
+
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    z-index: 3;
+
+    width: 40%;
+    height: 100px;
+    
+    color: white;
+}
+
+
+/* Carrosel */
+
+.carousel {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .slide-left,
+  .slide-right {
+    font-size: 24px;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .slide-left {
+    left: 10px;
+  }
+  .slide-right {
+    right: 10px;
+  }
+  
+  .carousel-item-wrapper {
+    display: flex;
+    scroll-behavior: smooth;
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+  
